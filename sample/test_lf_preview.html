@@ -1,0 +1,175 @@
+<!DOCTYPE><html><head><meta charset="utf-8"/></head><body><h1>一级标题</h1><hr /><h2>二级标题</h2><hr /><h1>dffefe</h1><p><a href="1+2>5">dwwdd</a></p><h1>一级标题无空格</h1><h1>一级标题</h1><h2>二级标题</h2><h3>三级标题</h3><h4>四级标题</h4><h5>五级标题</h5><h6>六级标题</h6><h2>分割线</h2><hr /><hr /><h2>合法的样式</h2><p>这是<i>斜体</i>，这是<strong>粗体</strong>，这是<code>代码</code>，这是<strong><i>粗斜体</i></strong>。</p><h2>跨行的样式（无需支持）</h2><p>这是*斜</p><p>体*，</p><p>这是**粗</p><p>体**，</p><p>这是`代</p><p>码`，</p><p>这是***粗斜</p><p>体***。</p><h2>不对称的非法样式（不崩溃即可，建议当纯文本处理)</h2><p><i>这是斜体</i>*</p><p>这是<i>粗体</i>*</p><p>这是<code>代码</code>`</p><p>*<i>这是斜体</i></p><p>这是*<i>粗体</i></p><p>这是`<code>代码</code></p><h2>样式特殊字符单独出现</h2><p>`</p><hr /><strong>`</strong><p><i>`</i></p><p><code>*</code></p><p><code>**</code></p><h2>图片和超链接</h2><p>百度一下，你就住院<img src="https://baidu.com/favicon.ico" alt="" /><a href="https://baidu.com">Baidu</a></p><h2>含特殊URL的超链接</h2><p><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms646268(v=vs.85).aspx">带括号的url</a></p><p><a href="blob/master/test.md">相对路径</a></p><p><a href="/blob/master/test.md">/相对路径</a></p><p><a href="./blob/master/test.md">./相对路径</a></p><p><a href="../blob/master/test.md">../相对路径</a></p><p><a href="#">#</a></p><h2>不合法的图片和超链接</h2><p>百度一下，你就住院<a href="https://baidu.com"></a></p><p>百度一下，你就住院<img src="https://bai`du`.com/favicon.ico" alt="" /><a href="https://bai**du**.com">Baidu</a></p><p>百度一下，你就住院<code>!</code><a href="https://baidu.com/favicon.ico"></a><strong><a href="https://baidu.com"><i>Baidu</i></a></strong></p><h2>带样式的图片和超链接</h2><p>百度一下，你就住院<code>!</code><a href="https://baidu.com/favicon.ico"></a><strong><a href="https://baidu.com"><i>Baidu</i></a></strong></p><h2>带超链接的图片</h2><p>百度一下，你就住院<a href="https://baidu.com" ><img src="https://baidu.com/favicon.ico" alt="" /></a></p><h2>列表（可单列，可组合）</h2><ul>
+<li>文本1</li>
+<li>文本1</li>
+<li>文本1</li>
+<li>文本1</li>
+<li>文本2</li>
+<li>文本3</li>
+<li>文本4</li>
+<li>文本5</li>
+<li>文本6</li>
+</ul><h2>无需支持嵌套列表</h2><ul>
+<li>文本1</li>
+<li>文本2</li>
+<li>文本3</li>
+</ul><ol start="1. ">
+<li>文本1</li>
+<li>文本2</li>
+<li>文本3</li>
+</ol><ul>
+<li>文本16666</li>
+<li>文本26666</li>
+</ul><ol start="1. ">
+<li>文本16666</li>
+<li>文本2</li>
+</ol><h2>列表强制从1开始计数</h2><ol start="9. ">
+<li>文本9</li>
+<li>文本10</li>
+<li>文本11</li>
+<li>文本100</li>
+</ol><h2>不合法列表（作为纯文本显示）</h2><p>+文本1</p><p>*文本1</p><p>-文本1</p><h2>引用和多行引用</h2><blockquote>这是引用</blockquote><blockquote>这是不带空格的引用</blockquote><blockquote>这是引用1</blockquote><blockquote>这是引用2</blockquote><blockquote>这是引用这一行也是引用</blockquote><h2>引用的嵌套（空行表示引用的结束）</h2><blockquote>这是引用这一行也是引用</blockquote><blockquote><blockquote>这一行是嵌套引用这一行在嵌套引用内</blockquote></blockquote><blockquote>这一行在嵌套引用内</blockquote><blockquote><blockquote>这一行在嵌套引用内</blockquote></blockquote><blockquote>这一行在引用内这一行在引用内</blockquote><p>这一行不在引用内</p><h2>龟派气功</h2><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote>》</blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote><h2>引用和列表的组合</h2><p>></p><ul>
+<li>文本1</li>
+<li>文本2</li>
+</ul><blockquote>a</blockquote><ul>
+<li>文本1</li>
+<li>文本2</li>
+</ul><h2>全部组合</h2><blockquote>这是引用这一行<strong>也是</strong>引用</blockquote><ul>
+<li>文本1<a href="https://baidu.com" ><img src="https://baidu.com/favicon.ico" alt="" /></a>6666</li>
+<li>文本2<a href="https://baidu.com" ><img src="https://baidu.com/favicon.ico" alt="" /></a></li>
+</ul><ol start="1. ">
+<li>文本16666</li>
+<li>文本2</li>
+</ol><h2>代码块及特殊字符</h2><pre class="cpp">#include &lt;iostream&gt;
+int main(){
+    // hello,world
+}
+</pre>
+<pre class="cpp">#include &lt;iostream&gt;
+int ```main```(){
+    // hello,`world`
+}
+</pre>
+<h2>Github 中代码块的结束必须另起一行</h2><pre class="cpp">#include &lt;iostream&gt;
+int main(){// hello,world}
+</pre>
+<h2>表格</h2><table>
+<tr>
+<th style="text-align:left">Item</th><th style="text-align:left">Value</th></tr>
+<tr>
+<td style="text-align:left">Computer</td>
+<td style="text-align:left">$1600</td>
+</tr>
+<tr>
+<td style="text-align:left">Phone</td>
+<td style="text-align:left">$12</td>
+</tr>
+<tr>
+<td style="text-align:left">Item</td>
+<td style="text-align:left">Value</td>
+</tr>
+<tr>
+<td style="text-align:left">-</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:left">Item</td>
+<td style="text-align:left">Value</td>
+</tr>
+<tr>
+<td style="text-align:left">:----------</td>
+<td style="text-align:left">------------:</td>
+</tr>
+<tr>
+<td style="text-align:left">Computer</td>
+<td style="text-align:left">$1600</td>
+</tr>
+<tr>
+<td style="text-align:left">Phone</td>
+<td style="text-align:left">$12</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Tables</strong></td>
+<td style="text-align:center"><i>Are</i></td>
+<td style="text-align:right">Cool</td>
+</tr></table>
+<h2>非法表格</h2><p>| <strong>Tables</strong>    | <i>Are</i>         | Cool  |</p><p>Computer | $1600</p><table>
+<tr>
+<th style="text-align:left">Phone</th><th style="text-align:left">$12</th></tr></table>
+<hr /><table>
+<tr>
+<th style="text-align:left">Item</th><th style="text-align:left">Value</th></tr>
+<tr>
+<td style="text-align:left">Computer</td>
+<td style="text-align:left">$1600</td>
+</tr></table>
+<hr /><h2>表格、引用、样式无法结合</h2><blockquote>无法|结合-|-</blockquote><p>></p><table>
+<tr>
+<th style="text-align:left">无法</th><th style="text-align:left">结合</th></tr></table>
+<blockquote>a</blockquote><table>
+<tr>
+<th style="text-align:left">无法</th><th style="text-align:left">结合</th></tr>
+<tr>
+<td style="text-align:left">`无法</td>
+<td style="text-align:left">结合</td>
+</tr>
+<tr>
+<td style="text-align:left">-</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:left">`无法</td>
+<td style="text-align:left">结合`</td>
+</tr>
+<tr>
+<td style="text-align:left">-</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:left">*无法</td>
+<td style="text-align:left">结合*</td>
+</tr>
+<tr>
+<td style="text-align:left">-</td>
+<td style="text-align:left">-</td>
+</tr>
+<tr>
+<td style="text-align:left">**无法</td>
+<td style="text-align:left">结合**</td>
+</tr>
+<tr>
+<td style="text-align:left">-</td>
+<td style="text-align:left">-</td>
+</tr></table>
+<h2>HTML 支持</h2><p>&lt;script&gt;alert(1)&lt;/script&gt;</p><p><h4>4级标题</h4></p><p><hr></p><p><button onclick="alert(1)">确定</button></p><h2>自动转义</h2><p>1 + 1 &lt; 3</p><p>&lt;&gt;</p><p>&lt;&lt;&gt;&gt;</p><table>
+<tr>
+<th style="text-align:left">123</th><th style="text-align:right">45677777</th></tr>
+<tr>
+<td style="text-align:left"><strong>789</strong></td>
+<td style="text-align:right">456</td>
+</tr></table>
+<h1>Latex 测试</h1><h3>块公式</h3><h4>1</h4>$$\pi_*(a|s) = 
+\left\{ 
+\begin{array}{ll} 
+\displaystyle 1 & \textrm{if}\ a=\arg\max_{a\in A}q_*(s,a)\\ 
+\displaystyle 0 & \textrm{otherwise} 
+\end{array} 
+\right.$$
+<h4>2</h4>$$\pi_*(a|s) = 
+\left\{ 
+\begin{array}{ll} 
+\displaystyle 1 & \textrm{if}\ a=\arg\max_{a\in A}q_*(s,a)\\ 
+\displaystyle 0 & \textrm{otherwise} 
+\end{array} 
+\right.
+$$
+<h4>3</h4>$$
+\pi_*(a|s) = 
+\left\{ 
+\begin{array}{ll} 
+\displaystyle 1 & \textrm{if}\ a=\arg\max_{a\in A}q_*(s,a)\\ 
+\displaystyle 0 & \textrm{otherwise} 
+\end{array} 
+\right.
+$$
+<h4>4</h4>$$\pi_*(a|s) = \left\{ \begin{array}{ll} \displaystyle 1 & \textrm{if}\ a=\arg\max_{a\in A}q_*(s,a)\\ \displaystyle 0 & \textrm{otherwise} \end{array}\right.$$
+<h1>行公式</h1><p>一行中：$\pi_*(a|s) = \left\{ \begin{array}{ll} \displaystyle 1 & \textrm{if}\ a=\arg\max_{a\in A}q_*(s,a)\\ \displaystyle 0 & \textrm{otherwise} \end{array}\right.$</p><script type="text/x-mathjax-config">MathJax.Hub.Config({TeX:{equationNumbers:{autoNumber:"AMS"}},tex2jax:{inlineMath:[['$','$'],['\\(','\\)']]}});</script><script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=default"></script></body></html>
