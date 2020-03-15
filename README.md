@@ -10,4 +10,4 @@ cmake .. && make
 ```
 
 # Build-in Demo
-Usage: `md2html <infile> <outfile>`. You can test it with an example from [sample/test1_lf.md](sample/test1_lf.md) whose proper output might be [sample/test_lf_preview.html](sample/test_lf_preview.html)
+Usage: `md2html <infile> <outfile>`. You can test it with an example from [sample/test1_lf.md](sample/test1_lf.md) whose proper output might be [sample/test1_lf_preview.html](sample/test1_lf_preview.html)
